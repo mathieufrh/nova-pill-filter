@@ -1,16 +1,16 @@
 {
-    "name": "eolica/nova-pill-filter",
+    "name": "shllghst/nova-pill-filter",
     "description": "A simple Laravel Nova filter that renders into clickable pills",
     "keywords": [
         "laravel",
         "nova"
     ],
-    "homepage": "https://github.com/Eolica-Web/nova-pill-filter",
+    "homepage": "https://github.com/mathieufrh/nova-pill-filter",
     "license": "MIT",
     "authors": [
         {
-            "name": "David Llobell",
-            "email": "dllobellmoya@gmail.com",
+            "name": "Mathieu Fourcroy",
+            "email": "mathieu.fourcroy@gmail.com",
             "role": "Developer"
         }
     ],

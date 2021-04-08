@@ -9,7 +9,7 @@ A simple Laravel Nova filter that renders into colorful clickable pills. This fi
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ``` bash
-composer require eolica/nova-pill-filter
+composer require shllghst/nova-pill-filter
 ```
 
 ## Usage
