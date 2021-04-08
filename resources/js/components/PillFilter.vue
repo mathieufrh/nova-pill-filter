@@ -1,8 +1,8 @@
 <template>
 
     <div>
-        <div class="flex justify-between items-center bg-30 p-3">
-            <h3 class="text-sm uppercase tracking-wide text-80">
+        <div :class="getClasses">
+            <h3 class="text-sm uppercase tracking-wide text-80 bg-30 p-3">
                 {{ filter.name }}
             </h3>
 
@@ -126,6 +126,14 @@
         },
 
         computed: {
+            getClasses() {
+                if (this.filter.showClearButton && this.hasActivePills) {
+                    return 'flex justify-between items-center bg-30 p-3';
+                }
+
+                return '';
+            },
+
             filter() {
                 return this.$store.getters[`${this.resourceName}/getFilter`](this.filterKey)
             },
